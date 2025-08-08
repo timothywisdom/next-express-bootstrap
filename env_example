@@ -1,0 +1,18 @@
+# Rename this to ".env" and fill in the values
+
+# Server Configuration
+PORT=3001
+NODE_ENV=development
+
+# Database Configuration (examples)
+DATABASE_URL=mongodb://localhost:27017/myapp
+DB_HOST=localhost
+DB_PORT=27017
+DB_NAME=myapp
+
+# API Keys (examples)
+API_KEY=your_api_key_here
+JWT_SECRET=your_jwt_secret_here
+
+# CORS Configuration
+ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
